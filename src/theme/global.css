@@ -1,0 +1,45 @@
+:root {
+  --white: #fff;
+  
+  --gray-100: #e1e1e6;
+  --gray-300: #c4c4cc;
+  --gray-400: #8d8d99;
+  --gray-600: #323238;
+  --gray-700: #29292e;
+  --gray-800: #202024;
+  --gray-900: #121214;
+
+  --green-500: #00875f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  /* 
+    Faz com que o padding e o margin e o border do elemento nunca aumentem sua largura e altura 
+    e sim, espremam o elemento para dentro.
+  */
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--gray-900);
+  color: var(--gray-300);
+  /* 
+    Aplica nos navegadores que são baseados no webkit, uma padronização para as fontes
+    ficarem mais fininhas, mais detalhadas. Principalmente quando não são usadas
+    fontes padrão do sistema.
+  */
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 
+  Colocamos em todos esses elementos porque por padrão
+  o input, o textarea e o button não herdam a fonte do body.
+  Eles tem a própria customização de fonte.
+*/
+body, input, textarea, button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1rem; /* 16px é a medida padrão (base) */
+}
