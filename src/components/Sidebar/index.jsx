@@ -13,7 +13,7 @@ const Sidebar = () => {
       <div className={styles.profile}>
         <img
           className={styles.avatar}
-          src="https://avatars.githubusercontent.com/u/66881343?v=4" alt="Lubni Morais"
+          src="https://github.com/lubnimorais.png" alt="Lubni Morais"
         />
 
         <strong>Lubni Morais</strong>

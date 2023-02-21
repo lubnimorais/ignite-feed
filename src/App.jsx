@@ -13,10 +13,7 @@ function App() {
         <Sidebar />
 
         <main>
-          <Post
-            author="Lubni Morais"
-            content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint beatae temporibus perferendis, repellendus, est magnam ratione, aspernatur voluptatibus assumenda dolorum deleniti non animi sapiente nisi voluptate excepturi commodi optio? Placeat?"
-          />
+          <Post />
         </main>
       </div>
     </div>
